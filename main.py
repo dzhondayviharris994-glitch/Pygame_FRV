@@ -54,7 +54,7 @@ class GameState:
         self.spawn_chance = 1.0
         self.slot_width = W // self.slot_count
         self.santa_pos = 0
-        self.score = 1
+        self.score = 0
         self.lives = 3
         self.gifts = []
         self.over = False
